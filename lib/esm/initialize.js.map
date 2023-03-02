@@ -1,0 +1,1 @@
+{"version":3,"file":"initialize.js","sourceRoot":"","sources":["../../src/initialize.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,eAAe,CAAC;AAC/C,OAAO,EAAE,eAAe,EAAE,MAAM,aAAa,CAAC;AAG9C,MAAM,UAAU,UAAU,CAAC,SAAoB;IAC3C,cAAc,CAAC,IAAI,eAAe,CAAC,SAAS,CAAC,CAAC,CAAC;AACnD,CAAC"}
