@@ -1,8 +1,8 @@
 {
     "private": true,
     "name": "foxwallet-standard-wallet",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
-    "repository": "https://github.com/solana-labs/wallet-standard",
+    "author": "tim<tim@foxwallet.com>",
+    "repository": "https://github.com/foxwallet/solana-wallet-standard",
     "license": "Apache-2.0",
     "engines": {
         "node": ">=16"
@@ -38,5 +38,5 @@
         "shx": "^0.3.4",
         "typescript": "^4.8.4"
     },
-    "version": null
+    "version": "0.1.0"
 }
