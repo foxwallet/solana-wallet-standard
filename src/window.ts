@@ -1,17 +1,17 @@
 import type { PublicKey, SendOptions, Transaction, TransactionSignature, VersionedTransaction } from '@solana/web3.js';
 
-export interface GhostEvent {
+export interface FoxWalletEvent {
     connect(...args: unknown[]): unknown;
     disconnect(...args: unknown[]): unknown;
     accountChanged(...args: unknown[]): unknown;
 }
 
-export interface GhostEventEmitter {
-    on<E extends keyof GhostEvent>(event: E, listener: GhostEvent[E], context?: any): void;
-    off<E extends keyof GhostEvent>(event: E, listener: GhostEvent[E], context?: any): void;
+export interface FoxWalletEventEmitter {
+    on<E extends keyof FoxWalletEvent>(event: E, listener: FoxWalletEvent[E], context?: any): void;
+    off<E extends keyof FoxWalletEvent>(event: E, listener: FoxWalletEvent[E], context?: any): void;
 }
 
-export interface Ghost extends GhostEventEmitter {
+export interface FoxWallet extends FoxWalletEventEmitter {
     publicKey: PublicKey | null;
     connect(options?: { onlyIfTrusted?: boolean }): Promise<{ publicKey: PublicKey }>;
     disconnect(): Promise<void>;
