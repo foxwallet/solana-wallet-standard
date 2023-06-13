@@ -31,7 +31,7 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/wallet-standard-features@^1.0.0":
+"@solana/wallet-standard-features@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@solana/wallet-standard-features/-/wallet-standard-features-1.0.0.tgz#fee71c47fa8c4bacbdc5c8750487e60a2e5e6746"
   integrity sha512-cZKUm2w67MQOAzbfdZCGAbePWuqSwpvpbWA2K2D0UcHX30I8ry8YEeHlqwqULIOTeY8lRCHu8WMxZwC9iMEqHQ==
@@ -39,7 +39,7 @@
     "@wallet-standard/base" "^1.0.0"
     "@wallet-standard/features" "^1.0.0"
 
-"@solana/web3.js@^1.58.0":
+"@solana/web3.js@1.73.2":
   version "1.73.2"
   resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.73.2.tgz#4b30cd402b35733dae3a7d0b638be26a7742b395"
   integrity sha512-9WACF8W4Nstj7xiDw3Oom22QmrhBh0VyZyZ7JvvG3gOxLWLlX3hvm5nPVJOGcCE/9fFavBbCUb5A6CIuvMGdoA==
@@ -100,12 +100,12 @@
   dependencies:
     "@types/node" "*"
 
-"@wallet-standard/base@^1.0.0", "@wallet-standard/base@^1.0.1":
+"@wallet-standard/base@1.0.1", "@wallet-standard/base@^1.0.0", "@wallet-standard/base@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@wallet-standard/base/-/base-1.0.1.tgz#860dd94d47c9e3c5c43b79d91c6afdbd7a36264e"
   integrity sha512-1To3ekMfzhYxe0Yhkpri+Fedq0SYcfrOfJi3vbLjMwF2qiKPjTGLwZkf2C9ftdQmxES+hmxhBzTwF4KgcOwf8w==
 
-"@wallet-standard/features@^1.0.0":
+"@wallet-standard/features@1.0.3", "@wallet-standard/features@^1.0.0":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@wallet-standard/features/-/features-1.0.3.tgz#c992876c5e4f7a0672f8869c4146c87e0dfe48c8"
   integrity sha512-m8475I6W5LTatTZuUz5JJNK42wFRgkJTB0I9tkruMwfqBF2UN2eomkYNVf9RbrsROelCRzSFmugqjKZBFaubsA==
@@ -187,7 +187,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-bs58@^4.0.0, bs58@^4.0.1:
+bs58@4.0.1, bs58@^4.0.0, bs58@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/bs58/-/bs58-4.0.1.tgz#be161e76c354f6f788ae4071f63f34e8c4f0a42a"
   integrity sha512-Ok3Wdf5vOIlBrgCvTq96gBkJw+JUEzdBgyaza5HLtPm7yTHkjRy8+JzNyHF7BHa0bNWOQIp3m5YF0nnFcOIKLw==
